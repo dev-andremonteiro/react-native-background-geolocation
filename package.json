@@ -1,9 +1,16 @@
 {
   "name": "@dev-andremonteiro/react-native-background-geolocation",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "optimized background location tracking",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "author": "Andre Monteiro",
+  "maintainers": [
+    {
+      "email": "andremonteiro.eng@gmail.com",
+      "name": "Andre Monteiro"
+    }
+  ],
   "scripts": {
     "link": "@dev-andremonteiro/react-native-background-geolocation/scripts/postlink.js",
     "unlink": "@dev-andremonteiro/react-native-background-geolocation/scripts/postunlink.js",
