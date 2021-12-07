@@ -97,7 +97,8 @@ RCT_EXPORT_METHOD(stop)
     }
 }
 
-RCT_EXPORT_METHOD(switchMode:(NSNumber*)mode success:(RCTResponseSenderBlock)success failure:(RCTResponseSenderBlock)failure)
+// https://github.com/mauron85/react-native-background-geolocation/issues/378
+RCT_EXPORT_METHOD(switchMode:(NSNumber* _Nonnull)mode success:(RCTResponseSenderBlock)success failure:(RCTResponseSenderBlock)failure)
 {
     RCTLogInfo(@"RCTBackgroundGeolocation #switchMode");
     [facade switchMode:[mode integerValue]];
